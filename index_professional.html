@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sidhardha K | Freelance Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    function toggleTheme() {
+      document.documentElement.classList.toggle('dark');
+    }
+  </script>
+  <style>
+    html.dark {
+      background-color: #0f172a;
+      color: white;
+    }
+  </style>
+</head>
+<body class="font-sans transition-colors duration-300 bg-white dark:bg-gray-900 dark:text-white">
+
+  <!-- Header -->
+  <header class="p-6 flex justify-between items-center border-b dark:border-gray-700">
+    <h1 class="text-2xl font-bold">Sidhardha K</h1>
+    <button onclick="toggleTheme()" class="bg-gray-200 dark:bg-gray-700 text-sm px-4 py-2 rounded hover:shadow">
+      Toggle Theme
+    </button>
+  </header>
+
+  <main class="p-6 max-w-5xl mx-auto space-y-16">
+
+    <!-- Intro Section -->
+    <section class="text-center">
+      <h2 class="text-3xl font-semibold mb-4">Building Ideas into Reality</h2>
+      <p class="text-gray-700 dark:text-gray-300 text-lg">
+        Hi, I'm <strong>Sidhardha K</strong> — a passionate B.Tech student and aspiring freelancer. This portfolio was created to help me
+        connect with potential clients and explore new opportunities in the digital space. I'm focused on delivering creative,
+        practical solutions and working on impactful projects.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+      <h2 class="text-2xl font-semibold mb-6 border-b pb-2 dark:border-gray-700">Upcoming Projects</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Project card template -->
+        <div class="border p-4 rounded shadow-sm dark:border-gray-600 hover:shadow-md transition">
+          <h3 class="text-xl font-bold mb-2">Project Title</h3>
+          <p class="text-gray-600 dark:text-gray-400 text-sm">
+            Short project description goes here. You can update this section as you build more projects.
+          </p>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section>
+      <h2 class="text-2xl font-semibold mb-4 border-b pb-2 dark:border-gray-700">Contact Me</h2>
+      <p class="mb-2">Feel free to reach out if you’re interested in working together or just want to say hi!</p>
+      <ul class="space-y-2 text-blue-600 dark:text-blue-400">
+        <li>Email: <a href="mailto:editorsidhardh@gmail.com">editorsidhardh@gmail.com</a></li>
+        <li>GitHub: <a href="#">yourusername</a></li>
+        <li>LinkedIn: <a href="#">yourprofile</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm py-6 text-gray-500 dark:text-gray-400 border-t dark:border-gray-700">
+    &copy; 2025 Sidhardha K. All rights reserved.
+  </footer>
+
+</body>
+</html>
