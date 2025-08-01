@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sidhardha K | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Light/Dark mode toggle
+    function toggleTheme() {
+      document.documentElement.classList.toggle('dark');
+    }
+  </script>
+  <style>
+    html.dark {
+      background-color: #0f172a;
+      color: white;
+    }
+  </style>
+</head>
+<body class="font-sans transition-colors duration-300">
+  <header class="p-6 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">Sidhardha K</h1>
+    <button onclick="toggleTheme()" class="bg-gray-200 dark:bg-gray-700 text-sm px-4 py-2 rounded">
+      Toggle Theme
+    </button>
+  </header>
+
+  <main class="p-6 space-y-16">
+    <!-- Introduction -->
+    <section>
+      <h2 class="text-xl font-semibold mb-2">About Me</h2>
+      <p class="text-gray-700 dark:text-gray-300">
+        Hi, I'm Sidhardha K — a passionate B.Tech student and aspiring freelancer. I’m building this portfolio to connect
+        with amazing clients and explore exciting freelance opportunities. Whether it's a fresh idea or a growing
+        business, I’m here to help bring your vision to life with creativity, commitment, and a modern approach.
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2 class="text-xl font-semibold mb-4">Upcoming Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Placeholder project card -->
+        <div class="p-4 border rounded shadow-sm dark:border-gray-600">
+          <h3 class="text-lg font-bold">Project Title</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Short project description goes here.</p>
+        </div>
+        <!-- Add more project cards below by copying the block above -->
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Contact Me</h2>
+      <p>Email: <a href="mailto:editorsidhardh@gmail.com" class="text-blue-600 dark:text-blue-400">editorsidhardh@gmail.com</a></p>
+      <p>GitHub: <a href="#" class="text-blue-600 dark:text-blue-400">yourusername</a></p>
+      <p>LinkedIn: <a href="#" class="text-blue-600 dark:text-blue-400">yourprofile</a></p>
+    </section>
+  </main>
+
+  <footer class="text-center text-sm py-6 text-gray-500 dark:text-gray-400">
+    &copy; 2025 Sidhardha K. All rights reserved.
+  </footer>
+</body>
+</html>
